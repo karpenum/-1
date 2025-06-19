@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="AddWindows\AddEquipmentWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="AddWindows\AddReportWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Admin\AdminMenuWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Admin\AreaViewerWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Admin\ProfileViewerWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Admin\Договоры\EditContractWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Admin\Договоры\ManageContractsWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Admin\Заказчики\EditCustomerWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Admin\Заказчики\ManageCustomersWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Admin\Измерения\EditMeasurementWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Admin\Измерения\ManageMeasurementsWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Admin\Координаты\EditCoordinateWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Admin\Координаты\ManageCoordinatesWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Admin\Оборудование\EditEquipmentWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Admin\Оборудование\ManageEquipmentWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Admin\Операторы\EditOperatorWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Admin\Операторы\ManageOperatorsWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Admin\Отчёты\EditReportWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Admin\Отчёты\ManageReportsWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Admin\Пикеты\EditPicketWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Admin\Пикеты\ManagePicketsWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Admin\Площади\EditAreaWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Admin\Площади\ManageAreasWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Admin\Пользователи\EditUserWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Admin\Пользователи\ManageUsersWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Admin\Проекты\EditProjectWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Admin\Проекты\ManageProjectsWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Admin\Профили\EditProfileWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Admin\Профили\ManageProfilesWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Admin\Типы пользователей\EditUserTypeWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Admin\Типы пользователей\ManageUserTypesWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Customer\CustomerMenuWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Operator\OperatorMenuWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Researcher\ResearcherMenuWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Researcher\ResearcherProjectDetailsWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="AddWindows\AddEquipmentWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="AddWindows\AddReportWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Admin\AdminMenuWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Admin\AreaViewerWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Admin\ProfileViewerWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Admin\Договоры\EditContractWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Admin\Договоры\ManageContractsWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Admin\Заказчики\EditCustomerWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Admin\Заказчики\ManageCustomersWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Admin\Измерения\EditMeasurementWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Admin\Измерения\ManageMeasurementsWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Admin\Координаты\EditCoordinateWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Admin\Координаты\ManageCoordinatesWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Admin\Оборудование\EditEquipmentWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Admin\Оборудование\ManageEquipmentWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Admin\Операторы\EditOperatorWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Admin\Операторы\ManageOperatorsWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Admin\Отчёты\EditReportWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Admin\Отчёты\ManageReportsWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Admin\Пикеты\EditPicketWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Admin\Пикеты\ManagePicketsWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Admin\Площади\EditAreaWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Admin\Площади\ManageAreasWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Admin\Пользователи\EditUserWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Admin\Пользователи\ManageUsersWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Admin\Проекты\EditProjectWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Admin\Проекты\ManageProjectsWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Admin\Профили\EditProfileWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Admin\Профили\ManageProfilesWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Admin\Типы пользователей\EditUserTypeWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Admin\Типы пользователей\ManageUserTypesWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Customer\CustomerMenuWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Operator\OperatorMenuWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Researcher\ResearcherMenuWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Researcher\ResearcherProjectDetailsWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

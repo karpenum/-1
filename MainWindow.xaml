@@ -1,0 +1,45 @@
+﻿<Window x:Class="Агеенков_курсач.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Login" Height="300" Width="400">
+    <Grid>
+        <TabControl x:Name="RoleTabControl" Margin="10">
+            <TabItem Header="Администратор">
+                <StackPanel>
+                    <Label Content="Логин:" Width="200" />
+                    <TextBox x:Name="UsernameTextBoxAdmin" Width="200" Height="30" Margin="10"/>
+                    <Label Content="Пароль:" Width="200" />
+                    <PasswordBox x:Name="PasswordBoxAdmin" Width="200" Height="30" Margin="10"/>
+                    <Button Content="Login" Width="200" Height="30" Margin="10" Click="LoginButton_Click"/>
+                </StackPanel>
+            </TabItem>
+            <TabItem Header="Оператор">
+                <StackPanel>
+                    <Label Content="Логин:" Width="200" />
+                    <TextBox x:Name="UsernameTextBoxOperator" Width="200" Height="30" Margin="10"/>
+                    <Label Content="Пароль:" Width="200" />
+                    <PasswordBox x:Name="PasswordBoxOperator" Width="200" Height="30" Margin="10"/>
+                    <Button Content="Login" Width="200" Height="30" Margin="10" Click="LoginButton_Click"/>
+                </StackPanel>
+            </TabItem>
+            <TabItem Header="Исследователь">
+                <StackPanel>
+                    <Label Content="Логин:" Width="200" />
+                    <TextBox x:Name="UsernameTextBoxResearcher" Width="200" Height="30" Margin="10"/>
+                    <Label Content="Пароль:" Width="200" />
+                    <PasswordBox x:Name="PasswordBoxResearcher" Width="200" Height="30" Margin="10"/>
+                    <Button Content="Login" Width="200" Height="30" Margin="10" Click="LoginButton_Click"/>
+                </StackPanel>
+            </TabItem>
+            <TabItem Header="Заказчик">
+                <StackPanel>
+                    <Label Content="Логин:" Width="200" />
+                    <TextBox x:Name="UsernameTextBoxCustomer" Width="200" Height="30" Margin="10"/>
+                    <Label Content="Пароль:" Width="200" />
+                    <PasswordBox x:Name="PasswordBoxCustomer" Width="200" Height="30" Margin="10"/>
+                    <Button Content="Login" Width="200" Height="30" Margin="10" Click="LoginButton_Click"/>
+                </StackPanel>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>
